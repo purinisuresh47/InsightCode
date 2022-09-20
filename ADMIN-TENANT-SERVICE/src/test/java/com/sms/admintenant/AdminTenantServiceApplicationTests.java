@@ -10,9 +10,5 @@ class AdminTenantServiceApplicationTests {
 	void contextLoads() {
 	}
 	
-	@Test
-	void contextLoadsForCheck() {
-	}
-
-
+	
 }
