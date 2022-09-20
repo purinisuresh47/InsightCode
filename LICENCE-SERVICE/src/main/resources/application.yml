@@ -1,0 +1,22 @@
+server:
+  port: 2175
+  servlet:
+    context-path: /paaslicense
+  
+spring:
+  application:
+    name: license-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Licence
+    username: postgres
+    password: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+eureka:
+  client:
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
